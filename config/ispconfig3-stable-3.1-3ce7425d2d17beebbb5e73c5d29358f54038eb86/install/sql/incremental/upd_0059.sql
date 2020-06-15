@@ -1,1 +1,0 @@
-ALTER TABLE `client` CHANGE `company_id` `company_id` VARCHAR( 255 ) NULL DEFAULT NULL ;

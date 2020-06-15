@@ -1,1 +1,0 @@
-ALTER TABLE `directive_snippets` ADD `master_directive_snippets_id` int(11) unsigned NOT NULL DEFAULT '0' AFTER `active`;

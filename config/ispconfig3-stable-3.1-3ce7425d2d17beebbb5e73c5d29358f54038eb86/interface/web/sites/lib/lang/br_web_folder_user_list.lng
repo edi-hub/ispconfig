@@ -1,7 +1,0 @@
-<?php
-$wb['list_head_txt'] = 'Usuário de Pasta';
-$wb['active_txt'] = 'Ativo';
-$wb['web_folder_id_txt'] = 'Pasta';
-$wb['username_txt'] = 'Usuário';
-$wb['add_new_record_txt'] = 'Adicionar novo usuário';
-?>

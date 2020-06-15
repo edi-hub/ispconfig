@@ -1,1 +1,0 @@
-ALTER TABLE `dns_rr` CHANGE `name` `name` varchar(255) NOT NULL DEFAULT '';
