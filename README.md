@@ -11,7 +11,7 @@
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install ispconfig.
+To install ispconfig you will need root or sudo to run them..
 
 ```bash
 # git clone https://github.com/sultonyakbar/ispconfig.git
