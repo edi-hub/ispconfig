@@ -1,8 +1,9 @@
 # ISPConfig - Hosting Control Panel
 
+Tested on: Ubuntu 18.04 LTS
+
 ## Requirement
 
-- Ubuntu 18.04 LTS
 - Web Server (Nginx)
 - Database (Mariadb)
 - Mail Server (Postfix)
