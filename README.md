@@ -3,11 +3,11 @@
 ## Requirement
 
 - Ubuntu 18.04 LTS
-- Nginx
-- Mariadb
-- Postfix
-- Bind9
-- FTP(Pureftpd)
+- Web Server (Nginx)
+- Database (Mariadb)
+- Mail Server (Postfix)
+- DNS Server (Bind9)
+- FTP Server (Pureftpd)
 
 ## Installation
 
