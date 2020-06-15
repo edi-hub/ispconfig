@@ -1,0 +1,2 @@
+UUID=9ce81b36-ad30-11ea-ae18-0800278efd32 / ext4 defaults,usrjquota=quota.user,grpjquota=quota.group,jqfmt=vfsv0 0 0
+/swap.img	none	swap	sw	0	0
