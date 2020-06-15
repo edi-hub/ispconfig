@@ -11,8 +11,10 @@
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install ispconfig.
 
 ```bash
-pip install foobar
+# git clone https://github.com/sultonyakbar/ispconfig.git
+# chmod +x config/install.sh
+# bash config/install.sh
 ```
