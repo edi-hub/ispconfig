@@ -2,6 +2,8 @@
 
 Tested on: Ubuntu 18.04 LTS
 
+
+
 ## Requirement
 
 - Web Server (Nginx)
@@ -19,3 +21,7 @@ To install ispconfig you will need root or sudo to run them..
 # chmod +x config/install.sh
 # bash config/install.sh
 ```
+
+
+#Reference
+https://git.ispconfig.org/ispconfig/ispconfig3
