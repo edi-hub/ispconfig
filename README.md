@@ -4,7 +4,7 @@ Tested on: Ubuntu 18.04 LTS
 
 
 
-## Requirement
+## Prerequisites
 
 - Web Server (Nginx)
 - Database (Mariadb)
