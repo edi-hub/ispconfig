@@ -19,8 +19,8 @@ To install ispconfig you will need root or sudo to run them..
 ```bash
 # git clone https://github.com/sultonyakbar/ispconfig.git
 # cd ispconfig
-# chmod +x config/install.sh
-# bash config/install.sh
+# chmod +x install.sh
+# bash install.sh
 ```
 
 
