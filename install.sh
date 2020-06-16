@@ -45,11 +45,11 @@ certbot register
 echo -e "\e[32m=====\nInstall Letsencrypt Done\n=====\e[0m"
 apt-get -y install pure-ftpd-common pure-ftpd-mysql quota quotatool
 cp config/pure-ftpd-common /etc/default/pure-ftpd-common
-echo 1 > /etc/pure-ftpd/conf/TLS
-mkdir -p /etc/ssl/private/
-openssl req -x509 -nodes -days 7300 -newkey rsa:2048 -keyout /etc/ssl/private/pure-ftpd.pem -out /etc/ssl/private/pure-ftpd.pem
-chmod 600 /etc/ssl/private/pure-ftpd.pem
-service pure-ftpd-mysql restart
+#echo 1 > /etc/pure-ftpd/conf/TLS
+#mkdir -p /etc/ssl/private/
+#openssl req -x509 -nodes -days 7300 -newkey rsa:2048 -keyout /etc/ssl/private/pure-ftpd.pem -out /etc/ssl/private/pure-ftpd.pem
+#chmod 600 /etc/ssl/private/pure-ftpd.pem
+#service pure-ftpd-mysql restart
 cp /etc/fstab /etc/fstab.bck
 sed -i 's/defaults/defaults,usrjquota=quota.user,grpjquota=quota.group,jqfmt=vfsv0 0 0/g' /etc/fstab
 mount -o remount /
