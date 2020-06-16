@@ -1,5 +1,6 @@
 #!/bin/bash
 cp /etc/apt/sources.list /etc/apt/sources.list.bck
+cp config/sources.list /etc/apt/sources.list
 apt-get update -y
 echo "Update Repository"
 apt-get -y install build-essential autoconf automake1.11 libtool flex bison debhelper binutils
