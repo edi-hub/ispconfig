@@ -87,4 +87,4 @@ tar xfz ispconfig.tar.gz
 cd ispconfig3*/install/
 php -q install.php
 cd
-echo -e "\e[32m=====\nInstallation ISPCONFIG Finishede\n=====\e[0m"
+echo -e "\e[32m=====\nInstallation ISPCONFIG Finish\n=====\e[0m"
