@@ -1,0 +1,20 @@
+[ZONE]
+origin={DOMAIN}.
+ns={NS1}.
+mbox={EMAIL}.
+refresh=7200
+retry=540
+expire=604800
+minimum=3600
+ttl=3600
+
+[DNS_RECORDS]
+A|{DOMAIN}.|{IP}|0|3600
+A|www|{IP}|0|3600
+A|mail|{IP}|0|3600
+A|ns1|{IP}|0|3600
+A|ns2|{IP}|0|3600
+NS|{DOMAIN}.|{NS1}.|0|3600
+NS|{DOMAIN}.|{NS2}.|0|3600
+MX|{DOMAIN}.|mail.{DOMAIN}.|10|3600
+TXT|{DOMAIN}.|v=spf1 mx a ~all|0|3600
