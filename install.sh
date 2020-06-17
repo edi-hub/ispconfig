@@ -30,7 +30,12 @@ freshclam
 service clamav-daemon start
 cp config/ubuntu-amavisd-new-2.11.patch /tmp/
 cp -pf /usr/sbin/amavisd-new /usr/sbin/amavisd-new_bak
+x="pwd"
+eval "$x"
+y=$(eval "$x")
+cd /usr/sbin
 patch < /tmp/ubuntu-amavisd-new-2.11.patch
+cd "$y"
 systemctl daemon-reload
 echo -e "\e[32m=====\nInstall Mail Filtering Done\n=====\e[0m"
 apt-get -y install mailman
