@@ -7,7 +7,7 @@ apt-get -y install build-essential autoconf automake1.11 libtool flex bison debh
 service sendmail stop; update-rc.d -f sendmail remove
 apt-get install nginx mariadb-client mariadb-server -y
 echo -e "\e[32m=====\nInstall Web Server and Database Done\n=====\e[0m"
-apt-get -y install php7.2 php7.2-common php7.2-gd php7.2-mysql php7.2-imap php7.2-cli php7.2-cgi php-pear mcrypt imagemagick libruby php7.2-curl php7.2-intl php7.2-pspell php7.2-recode php7.2-sqlite3 php7.2-tidy php7.2-xmlrpc php7.2-xsl memcached php-memcache php-imagick php-gettext php7.2-zip php7.2-mbstring php-soap php7.2-soap php7.2-fpm
+apt-get -y install php7.2 php7.2-common php7.2-gd php7.2-mysql php7.2-imap php7.2-cli php7.2-cgi php-pear mcrypt imagemagick libruby php7.2-curl php7.2-intl php7.2-pspell php7.2-recode php7.2-sqlite3 php7.2-tidy php7.2-xmlrpc php7.2-xsl memcached php-memcache php-imagick php-gettext php7.2-zip php7.2-mbstring php-soap php7.2-soap php-fpm
 echo -e "\e[32m=====\nInstall PHP Done\n=====\e[0m"
 cp /etc/php/7.2/fpm/php.ini /etc/php/7.2/fpm/php.ini.bck
 cp config/php.ini /etc/php/7.2/fpm/php.ini
