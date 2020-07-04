@@ -6,6 +6,7 @@ echo -e "\e[32m=====\nUpdate Repository\n=====\e[0m"
 apt-get -y install build-essential autoconf automake1.11 libtool flex bison debhelper binutils
 service sendmail stop; update-rc.d -f sendmail remove
 apt-get install nginx mariadb-client mariadb-server -y
+/etc/init.d/mysql restart
 echo -e "\e[32m=====\nInstall Web Server and Database Done\n=====\e[0m"
 apt-get -y install php7.2 php7.2-common php7.2-gd php7.2-mysql php7.2-imap php7.2-cli php7.2-cgi php-pear mcrypt imagemagick libruby php7.2-curl php7.2-intl php7.2-pspell php7.2-recode php7.2-sqlite3 php7.2-tidy php7.2-xmlrpc php7.2-xsl memcached php-memcache php-imagick php-gettext php7.2-zip php7.2-mbstring php-soap php7.2-soap php-fpm
 echo -e "\e[32m=====\nInstall PHP Done\n=====\e[0m"
