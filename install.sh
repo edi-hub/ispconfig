@@ -39,12 +39,12 @@ patch < /tmp/ubuntu-amavisd-new-2.11.patch
 cd "$y"
 systemctl daemon-reload
 echo -e "\e[32m=====\nInstall Mail Filtering Done\n=====\e[0m"
-apt-get -y install mailman
-newlist mailman
-cp config/aliases
-newaliases
-service postfix restart
-service mailman start
+#apt-get -y install mailman
+#newlist mailman
+#cp config/aliases
+#newaliases
+#service postfix restart
+#service mailman start
 apt-get -y install hhvm
 apt-get -y install certbot
 certbot register
