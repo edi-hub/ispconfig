@@ -57,8 +57,8 @@ cp config/pure-ftpd-common /etc/default/pure-ftpd-common
 #chmod 600 /etc/ssl/private/pure-ftpd.pem
 #service pure-ftpd-mysql restart
 cp /etc/fstab /etc/fstab.bck
-cp config/fstab /etc/fstab
-#sed -i 's/defaults/defaults,usrjquota=quota.user,grpjquota=quota.group,jqfmt=vfsv0 0 0/g' /etc/fstab
+#cp config/fstab /etc/fstab
+sed -i 's/defaults/defaults,usrjquota=quota.user,grpjquota=quota.group,jqfmt=vfsv0 0 0/g' /etc/fstab
 mount -o remount /
 quotacheck -avugm
 quotaon -avug
